@@ -1,0 +1,38 @@
+==============================================================================
+------------------------------------------------------------------------------
+Class ~
+{(exact)} stow.ConfigOptions
+Fields ~
+{dir} `(optional)` `(string)` Directory to use stow from
+
+------------------------------------------------------------------------------
+                                                                        *config*
+                                    `config`
+default configuration options if none are passed to setup
+Type ~
+stow.ConfigOptions
+
+------------------------------------------------------------------------------
+                                                                *Stow.reapply()*
+                                `Stow.reapply`()
+remove and reapply `stow` directory
+
+------------------------------------------------------------------------------
+                                                                  *Stow.apply()*
+                                 `Stow.apply`()
+apply `stow` directory
+
+------------------------------------------------------------------------------
+                                                                 *Stow.remove()*
+                                `Stow.remove`()
+remove `stow` directory
+
+------------------------------------------------------------------------------
+                                                                  *Stow.setup()*
+                              `Stow.setup`({opts})
+setup Stow options and merge them with user provided ones.
+@param opts stow.ConfigOptions | nil
+@return nil
+
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
